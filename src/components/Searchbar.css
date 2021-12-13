@@ -1,0 +1,18 @@
+.input-searchbar {
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+.button-searchbar {
+    border-radius: 10px;
+    padding: 7px;
+    transition: .5s;
+    font-weight: 500;
+    width: 80px;
+}
+.button-searchbar:hover {
+    font-weight: 700;
+    max-width: 80px;
+    background-color: rgba(173, 173, 173, 0.562);
+}
