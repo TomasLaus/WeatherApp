@@ -14,7 +14,7 @@ function City({onFilter}) {
     <div className="row d-flex justify-content-center text-center">
         <div className="container">
             <div className="card1 col-lg-8 col-md-7"> <small style={{fontWeight: '600', fontStyle: 'italic'}}>Weather App</small>
-                <div className="text-center" > <img className="iconoClima" src={"http://openweathermap.org/img/wn/"+cityDetail.img+"@2x.png"} alt="" /></div>
+                <div className="text-center" > <img className="iconoClima" src={"https://openweathermap.org/img/wn/"+cityDetail.img+"@2x.png"} alt="" /></div>
                 <div className="d-flex flex-column text-center">        
                     <h3 className="fa fa-sun-o mt-4"><small style={{fontWeight: '600', fontStyle: 'italic'}}>{cityDetail.weather}</small></h3> 
                 </div>
